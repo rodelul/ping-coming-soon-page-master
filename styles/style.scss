@@ -118,3 +118,119 @@ body {
     }
 
 
+@media screen and (max-width: 768px) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    
+    .hero-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        .hero-text {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+            p {
+                color: #969696;
+                font-size: 12px;
+                font-weight: 300;
+            }
+            .logo {
+                width: 90px;
+                height: 40px;
+                object-fit: contain;
+            }
+            form {
+                position: relative;
+                input#email {
+                    border: 1px solid #B8C7ED;
+                    padding: 10px 30px;
+                    width: 100%;
+                    border-radius: 48px;
+                    font-family: "Libre Franklin", sans-serif;
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: black;
+                    outline: none;
+                }
+                input[type="email"]::placeholder {
+                    color: #B8C7ED;
+                }
+    
+                input#email:active {
+                    border: 1px solid #B8C7ED;
+                    color: black;
+                }
+                input#email:focus {
+                    border: 1px solid #B8C7ED !important;
+                    color: black;
+                }
+                
+                button#submitButton {
+                    margin-top: 40px;
+                    padding: 12px 62px;
+                    border: 1px solid #4C7BF3;
+                    border-radius: 48px;
+                    background-color: #4C7BF3;
+                    color: white;
+                    font-family: "Libre Franklin", sans-serif;
+                    font-size: 12px;
+                    font-weight: 600;
+                    outline: none;
+                    cursor: pointer;
+                    width: 100%;
+                }
+                .validation-message {
+                    position: absolute;
+                    left: 35%;
+                    left: 50%;
+                    transform: translate(-50%);
+                    top: 50px;
+                }
+            }
+            }
+            .text-inner {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                h1 {
+                    font-size: 22px;
+                    line-height: 32px;
+                    color: #969696;
+                    font-weight: 300;
+                }
+                .title-span {
+                    color: #15202A;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 12px;
+                    font-weight: 300;
+                    color: #15202A;
+                }
+            }
+            .ilustration {
+                margin-bottom: 100px;
+                width: 320px;
+                height: 192px;
+            }
+            .social-icons {
+                display: flex;
+                gap: 12px;
+                svg {
+                    width: 32px;
+                    height: 32px;
+                    object-fit: cover;
+                }
+            }
+        }
+
+
+
+}
