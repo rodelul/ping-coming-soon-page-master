@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.hero-inner .hero-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.hero-inner .hero-text p {
+  color: #969696;
+  font-size: 12px;
+  font-weight: 300;
+}
+.hero-inner .hero-text .logo {
+  width: 90px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.hero-inner .hero-text form {
+  position: relative;
+}
+.hero-inner .hero-text form input#email {
+  border: 1px solid #B8C7ED;
+  padding: 18px 30px;
+  width: 420px;
+  border-radius: 48px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+  outline: none;
+}
+.hero-inner .hero-text form input[type=email]::-moz-placeholder {
+  color: #B8C7ED;
+}
+.hero-inner .hero-text form input[type=email]::placeholder {
+  color: #B8C7ED;
+}
+.hero-inner .hero-text form input#email:active {
+  border: 1px solid #B8C7ED;
+  color: black;
+}
+.hero-inner .hero-text form input#email:focus {
+  border: 1px solid #B8C7ED !important;
+  color: black;
+}
+.hero-inner .hero-text form button#submitButton {
+  padding: 18px 62px;
+  border: 1px solid #4C7BF3;
+  border-radius: 48px;
+  background-color: #4C7BF3;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+}
+.hero-inner .hero-text form .validation-message {
+  position: absolute;
+  left: 30px;
+  top: 65px;
+}
+.hero-inner .text-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.hero-inner .text-inner h1 {
+  font-size: 48px;
+  line-height: 60px;
+  color: #969696;
+  font-weight: 300;
+}
+.hero-inner .text-inner .title-span {
+  color: #15202A;
+  font-weight: 700;
+}
+.hero-inner .text-inner p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #15202A;
+}
+.hero-inner .ilustration {
+  width: 640px;
+  height: 383px;
+}
+.hero-inner .social-icons {
+  display: flex;
+  gap: 12px;
+}
+.hero-inner .social-icons svg {
+  width: 32px;
+  height: 32px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
